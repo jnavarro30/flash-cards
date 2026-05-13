@@ -11,8 +11,9 @@
 .card {
   height: 100%;
   width: 100%;
-  display: flex;
+  border: 0.2rem solid black;
+  /* display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-around; */
 }
 </style>
