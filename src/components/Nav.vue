@@ -2,7 +2,7 @@
 
 <template>
   <nav>
-    <button id="back-btn">Back</button>
+    <!-- <button id="back-btn">Back</button> -->
     <button id="sort-btn">Sort</button>
     <button id="add-btn">Add</button>
     <button id="edit-btn">Edit</button>

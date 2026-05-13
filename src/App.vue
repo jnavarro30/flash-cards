@@ -1,5 +1,6 @@
 <script setup>
 import Nav from './components/Nav.vue'
+import SubjectListView from './views/SubjectListView.vue'
 </script>
 
 <template>
@@ -7,6 +8,12 @@ import Nav from './components/Nav.vue'
     <header>
       <Nav />
     </header>
+    <body>
+      <!-- <SubjectListView /> -->
+    <router-link to="/">Home</router-link>
+    <router-link to="/flashcards">Flashcards</router-link>
+    <router-view />
+    </body>
   </div>
 </template>
 

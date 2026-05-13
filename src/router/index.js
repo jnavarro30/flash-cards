@@ -4,8 +4,8 @@ import { createRouter, createWebHistory } from 'vue-router';
 const routes = [
   { 
     path: '/', 
-    component: () => import('../views/HomeView.vue'), // We will need to create this view component
-    name: 'home'
+    component: () => import('../views/SubjectListView.vue'), // We will need to create this view component
+    name: 'subject-list'
   },
   { 
     path: '/flashcards', 
