@@ -1,19 +1,20 @@
 <script setup></script>
 
 <template>
-  <div class="card">
-    <h2>Card Title</h2>
-    <p>Card content goes here...</p>
-  </div>
+  <li class="card">
+    <h2>CompTIA A+</h2>
+    <p>Number of flashcards</p> 
+  </li>
 </template>
 
 <style scoped>
 .card {
+  border: 0.2rem solid red;
+  background-color: white;
   height: 100%;
-  width: 100%;
-  border: 0.2rem solid black;
-  /* display: flex;
-  align-items: center;
-  justify-content: space-around; */
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 90%;
+  cursor: pointer;
 }
 </style>

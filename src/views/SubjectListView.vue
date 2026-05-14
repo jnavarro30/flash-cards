@@ -4,26 +4,21 @@ import Card from '../components/Card.vue'
 
 <template>
   <ul class="subject-list">
-    <li class="subject-item"><Card /></li>
-    <li class="subject-item"><Card /></li>
-    <li class="subject-item"><Card /></li>
+    <Card />
   </ul>
 </template>
 
 <style scoped>
 .subject-list {
-  height: 100%;
-  border: 0.2rem solid purple;
+  /* height: 100%; */
+  /* border: 0.2rem solid purple; */
+  background-color: lightgray;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   list-style-type: none;
-}
-.subject-item {
-  height: 100%;
-  width: 90%;
-  border: 0.2rem solid red;
-  cursor: pointer;
+  margin: 0;
+  padding: 0;
 }
 </style>

@@ -1,23 +1,24 @@
 <script setup></script>
 
 <template>
-  <nav>
+  <header>
     <!-- <button id="back-btn">Back</button> -->
     <button id="sort-btn">Sort</button>
     <button id="add-btn">Add</button>
     <button id="edit-btn">Edit</button>
     <!-- <button id="cancel-btn"> Cancel</button>
     <button id="delete-btn">Delete</button> -->
-  </nav>
+  </header>
 </template>
 
 <style scoped>
-nav {
-  height: 100%;
-  width: 100%;
+header {
+  /* border: 0.5rem solid blue; */
+  background-color: lightblue;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 1rem;
 }
 button {
   height: 3rem;
